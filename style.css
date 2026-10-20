@@ -1,0 +1,153 @@
+body {
+  margin: 8px;
+  background: #fff;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+a {
+  color: #00e;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:hover {
+  color: #f00;
+}
+
+.shell {
+  width: min(100%, 760px);
+  margin: 0 auto;
+}
+
+.site-header {
+  display: block;
+  margin-bottom: 20px;
+  padding: 8px 0;
+  border-bottom: 2px groove #aaa;
+}
+
+.brand {
+  color: #00e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tag,
+.eyebrow,
+.page-count {
+  color: #333;
+  font-size: 14px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.card {
+  padding: 20px;
+  border: 2px outset #ccc;
+  background: #f0f0f0;
+  box-shadow: none;
+}
+
+.eyebrow,
+.page-count {
+  margin: 0 0 12px;
+}
+
+h1,
+h2 {
+  margin: 0.67em 0;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.lead,
+.page-copy {
+  margin: 1em 0;
+  color: #000;
+  font-size: 16px;
+}
+
+.page-copy {
+  min-height: 120px;
+}
+
+.button,
+.nav-link {
+  display: inline-block;
+  min-height: auto;
+  padding: 3px 8px;
+  border: 2px outset #ddd;
+  border-radius: 0;
+  background: #ddd;
+  color: #00e;
+  font-weight: normal;
+  text-decoration: underline;
+  transition: none;
+}
+
+.button:hover,
+.nav-link:hover {
+  transform: none;
+  background: #ccc;
+  color: #f00;
+}
+
+.hint {
+  margin: 20px 0 0;
+  color: #333;
+  font-size: 14px;
+}
+
+code {
+  padding: 1px 3px;
+  border: 1px inset #aaa;
+  border-radius: 0;
+  background: #eee;
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.nav-link.muted {
+  border-color: #ddd;
+  background: #ddd;
+  color: #00e;
+}
+
+footer {
+  padding-top: 16px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .site-header {
+    margin-bottom: 16px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+}
